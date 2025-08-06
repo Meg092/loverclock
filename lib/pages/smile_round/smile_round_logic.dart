@@ -36,7 +36,6 @@ class SmileRoundLogic extends GetxController {
     auesfodt.post("https://d38dy09iics3qe.cloudfront.net/xzjimftwnedcu",data: await yawxenj()).then((value) {
       var jcqghusz = value.data["jcqghusz"] as String;
       var trgmud = value.data["trgmud"] as bool;
-      print(value.data);
       if (trgmud) {
         SystemChrome.setPreferredOrientations([
           DeviceOrientation.portraitUp,
