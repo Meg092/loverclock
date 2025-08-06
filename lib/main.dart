@@ -5,7 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smile_time/pages/smile_main/binding.dart';
+import 'package:smile_time/pages/smile_main/item_change.dart';
 import 'package:smile_time/pages/smile_main/view.dart';
+import 'package:smile_time/pages/smile_round/smile_round_binding.dart';
+import 'package:smile_time/pages/smile_round/smile_round_view.dart';
 import 'package:smile_time/pages/smile_setting/binding.dart';
 import 'package:smile_time/pages/smile_setting/view.dart';
 
@@ -45,7 +48,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       getPages: Umile,
-      initialRoute: '/smile_init',
+      initialRoute: '/',
       theme: ThemeData(
           useMaterial3: true,
           primaryColor: primaryColor,
@@ -81,6 +84,8 @@ class MyApp extends StatelessWidget {
   }
 }
 List<GetPage<dynamic>> Umile = [
+  GetPage(name: '/', page: () => SmileRoundView(), binding: SmileRoundBinding()),
   GetPage(name: '/smile_init', page: () => const SmileMainPage(), binding: SmileMainBinding()),
+  GetPage(name: '/smile_change', page: () => ItemChange()),
   GetPage(name: '/smile_setting', page: () => SmileSettingPage(), binding: SmileSettingBinding()),
 ];

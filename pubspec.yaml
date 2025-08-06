@@ -36,11 +36,14 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   get: ^4.6.6
+  dio: ^5.4.3+1
   styled_widget: ^0.4.1
   fluttertoast: ^8.2.5
   device_info_plus: ^10.1.0
   package_info_plus: ^8.0.0
   intl: ^0.19.0
+  flutter_inappwebview: ^6.1.5
+  flutter_timezone: ^3.0.0
   internet_connection_checker: ^3.0.1
   shared_preferences: ^2.2.3
   image_picker: ^0.8.0+6
@@ -61,12 +64,12 @@ dev_dependencies:
 
   # flutter pub run flutter_launcher_icons:main
 flutter_launcher_icons:
-  image_path: "assets/launcher.webp"
+  image_path: "assets/start.png"
   android: true
   ios: true
   web:
     generate: true
-    image_path: "assets/launcher.webp"
+    image_path: "assets/start.png"
     background_color: "#FFFFFF"
     theme_color: "#FFFFFF"
 
