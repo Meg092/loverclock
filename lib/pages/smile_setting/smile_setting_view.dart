@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:styled_widget/styled_widget.dart';
 
-import 'logic.dart';
+import 'smile_setting_logic.dart';
 
 class SmileSettingPage extends GetView<SmileSettingLogic> {
   @override

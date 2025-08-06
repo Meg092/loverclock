@@ -9,8 +9,8 @@ import 'package:smile_time/pages/smile_main/item_change.dart';
 import 'package:smile_time/pages/smile_main/view.dart';
 import 'package:smile_time/pages/smile_round/smile_round_binding.dart';
 import 'package:smile_time/pages/smile_round/smile_round_view.dart';
-import 'package:smile_time/pages/smile_setting/binding.dart';
-import 'package:smile_time/pages/smile_setting/view.dart';
+import 'package:smile_time/pages/smile_setting/smile_setting_binding.dart';
+import 'package:smile_time/pages/smile_setting/smile_setting_view.dart';
 
 Color primaryColor = const Color(0xffa6b500);
 Color bgColor = const Color(0xfff2f2f2);

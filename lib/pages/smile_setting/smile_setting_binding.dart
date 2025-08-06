@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import 'logic.dart';
+import 'smile_setting_logic.dart';
 
 class SmileSettingBinding extends Bindings {
   @override
